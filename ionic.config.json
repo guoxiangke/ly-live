@@ -1,0 +1,7 @@
+{
+  "name": "ly-live",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
