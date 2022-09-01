@@ -14,9 +14,7 @@
       <div style="text-align: center; padding: 4em;">
         <!-- https://ly729.airtime.pro/api/live-info -->
         <audio controls="controls" autoplay preload="true">
-          <source src="https://listen.729ly.net:8001/ly729_c" type="audio/mp3">
-          <source src="https://ly729.out.airtime.pro/ly729_d" type="audio/mp3">
-          <source src="https://ly729.out.airtime.pro/ly729_a" type="audio/mp3">
+          <source src="https://ly729.out.airtime.pro/ly729_a" type="audio/mpeg">
           <source src="https://ly729.out.airtime.pro/ly729_b" type="audio/mp3">
           <source src="https://listen.729ly.net:8001/ly729_a" type="audio/mp3">
         </audio>
