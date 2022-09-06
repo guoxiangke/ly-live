@@ -11,14 +11,7 @@
           <ion-title size="large">同行频道</ion-title>
         </ion-toolbar>
       </ion-header>
-      <div style="text-align: center; padding: 4em;">
-        <!-- https://ly729.airtime.pro/api/live-info -->
-        <audio controls="controls" autoplay preload="true">
-          <source :src="urls[0]" type="audio/mpeg">
-          <source :src="urls[1]" type="audio/mpeg">
-          <source :src="urls[2]" type="audio/mpeg">
-        </audio>
-      </div>
+      <iframe src="https://ly729.airtime.pro/embed/player?stream=auto&skin=2" marginwidth="0" marginheight="0" scrolling="auto" width="100%" height="100%" frameborder="0"></iframe>
     </ion-content>
   </ion-page>
 </template>
