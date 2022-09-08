@@ -12,11 +12,9 @@
         </ion-toolbar>
       </ion-header>
       <ion-fab vertical="bottom" horizontal="end" slot="fixed">
-        <ion-fab-button>
+        <ion-fab-button >
           <a href="https://app.729ly.net" rel="noreferrer" target="_blank">
-            <ion-fab-button class="w-12 h-12 p-2">
-              <ion-img src="/assets/icon/sht.png" alt="良友隨身聽" title="良友隨身聽"></ion-img>
-            </ion-fab-button>
+            <img src="/assets/icon/sht.png" style="margin-bottom: -3px;" alt="良友隨身聽" title="良友隨身聽" />
           </a>
         </ion-fab-button>
       </ion-fab>
