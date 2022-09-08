@@ -11,6 +11,16 @@
           <ion-title size="large">同行频道</ion-title>
         </ion-toolbar>
       </ion-header>
+      <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+        <ion-fab-button>
+          <a href="https://app.729ly.net" rel="noreferrer" target="_blank">
+            <ion-fab-button class="w-12 h-12 p-2">
+              <ion-img src="/assets/icon/sht.png" alt="良友隨身聽" title="良友隨身聽"></ion-img>
+            </ion-fab-button>
+          </a>
+        </ion-fab-button>
+      </ion-fab>
+
       <iframe src="https://ly729.airtime.pro/embed/player?stream=auto&skin=2" marginwidth="0" marginheight="0" scrolling="auto" width="100%" height="100%" frameborder="0"></iframe>
     </ion-content>
   </ion-page>
@@ -18,7 +28,12 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
+import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent,
+  IonFab, 
+  IonFabButton,
+  IonIcon,
+  IonImg,
+} from '@ionic/vue';
 
 export default  defineComponent({
   name: 'Tab1Page',
