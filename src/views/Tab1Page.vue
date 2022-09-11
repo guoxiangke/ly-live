@@ -11,13 +11,11 @@
           <ion-title size="large">同行频道</ion-title>
         </ion-toolbar>
       </ion-header>
-      <ion-fab vertical="bottom" horizontal="end" slot="fixed">
-        <ion-fab-button >
+      <div style="position: absolute;top: 300px;right: 10px;">
           <a href="https://app.729ly.net" rel="noreferrer" target="_blank">
-            <img src="/assets/icon/sht.png" style="margin-bottom: -3px;" alt="良友隨身聽" title="良友隨身聽" />
+            <img src="/assets/icon/sht.png" style="border-radius: 50%;max-width: 50px;" alt="良友随身听" title="良友随身听" />
           </a>
-        </ion-fab-button>
-      </ion-fab>
+      </div>
 
       <iframe src="https://ly729.airtime.pro/embed/player?stream=auto&skin=2" marginwidth="0" marginheight="0" scrolling="auto" width="100%" height="100%" frameborder="0"></iframe>
     </ion-content>
