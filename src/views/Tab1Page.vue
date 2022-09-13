@@ -11,9 +11,9 @@
           <ion-title size="large">同行频道</ion-title>
         </ion-toolbar>
       </ion-header>
-      <div style="position: absolute;top: 500px;right: 10px;">
+      <div  class="button-17" style="position: absolute;top: 500px;right: 10px; border-radius: 50%;max-width: 50px;">
           <a href="https://app.729ly.net" rel="noreferrer" target="_blank">
-            <img src="/assets/icon/lylogo.png" style="border-radius: 50%;max-width: 50px;" alt="良友随身听" title="良友随身听" />
+            <img src="/assets/icon/lylogo.png"  style="border-radius: 50%;max-width: 50px;" alt="良友随身听" title="良友随身听" />
           </a>
       </div>
 
