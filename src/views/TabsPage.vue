@@ -5,17 +5,17 @@
       <ion-tab-bar slot="bottom">
         <ion-tab-button tab="tab1" href="/tabs/tab1">
           <ion-icon :icon="triangle" />
-          <ion-label>同行频道</ion-label>
+          <ion-label alt="同行频道">同行频道</ion-label>
         </ion-tab-button>
           
         <ion-tab-button tab="tab2" href="/tabs/tab2">
           <ion-icon :icon="ellipse" />
-          <ion-label>第五空间</ion-label>
+          <ion-label alt="第五空间">第五空间</ion-label>
         </ion-tab-button>
         
         <ion-tab-button tab="tab3" href="/tabs/tab3">
           <ion-icon :icon="square" />
-          <ion-label>节目时间</ion-label>
+          <ion-label alt="节目时间">节目时间</ion-label>
         </ion-tab-button>
       </ion-tab-bar>
     </ion-tabs>
