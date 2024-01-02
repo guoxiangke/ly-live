@@ -17,7 +17,7 @@
           </a>
       </div>
 
-      <iframe src="https://influx.simai.life/api?redirect=https://729ly.net/tx-channel?metric=lytx%26keyword=lytx" marginwidth="0" marginheight="0" scrolling="auto" width="100%" height="100%" frameborder="0"></iframe>
+      <iframe src="https://influx.simai.life/api?redirect=https://729ly.net/zh-sc/listen/channel/channel-tx?metric=lytx%26keyword=lytx" marginwidth="0" marginheight="0" scrolling="auto" width="100%" height="100%" frameborder="0"></iframe>
     </ion-content>
   </ion-page>
 </template>
