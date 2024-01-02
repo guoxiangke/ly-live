@@ -16,8 +16,7 @@
             <img src="/assets/icon/lylogo.png"  style="border-radius: 50%;max-width: 50px;" alt="良友随身听" title="良友随身听" />
           </a>
       </div>
-
-      <iframe src="https://729ly.net/zh-sc/listen/channel/channel-tx" marginwidth="0" marginheight="0" scrolling="auto" width="100%" height="100%" frameborder="0"></iframe>
+      <audio controls src="https://listen.729ly.net:8001/ly729_a"></audio>
     </ion-content>
   </ion-page>
 </template>
