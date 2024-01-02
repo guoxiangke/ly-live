@@ -16,7 +16,10 @@
             <img src="/assets/icon/lylogo.png"  style="border-radius: 50%;max-width: 50px;" alt="良友随身听" title="良友随身听" />
           </a>
       </div>
-      <audio style="width: 100%;padding-top: 5em;" controls src="https://listen.729ly.net:8001/ly729_a"></audio>
+      <br/>
+      <br/>
+      <br/>
+      <audio style="width: 100%;" controls src="https://listen.729ly.net:8001/ly729_a"></audio>
     </ion-content>
   </ion-page>
 </template>
